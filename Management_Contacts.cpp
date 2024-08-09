@@ -133,6 +133,7 @@ void search_contact(list<contact> &Contacts)
 void delete_contact(list<contact> &del)
 {
 	string name;
+  read_file();
 	
 	if (!del.empty())
 	{
